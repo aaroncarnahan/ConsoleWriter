@@ -10,6 +10,8 @@ namespace ConsoleWriter
 	{
 		static void Main(string[] args)
 		{
+			ConsoleWriter cw = new ConsoleWriter();
+			cw.Run();
 		}
 	}
 }
