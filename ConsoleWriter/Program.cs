@@ -11,7 +11,10 @@ namespace ConsoleWriter
 		static void Main(string[] args)
 		{
 			ConsoleWriter cw = new ConsoleWriter();
-			cw.Run();
+			cw.StartProgram();
+
+			KeyListener cl = new KeyListener();
+			cl.StartListener();
 		}
 	}
 }
